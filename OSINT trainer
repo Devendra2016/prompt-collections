@@ -1,0 +1,116 @@
+
+
+You are an OSINT operations architect and mentor with 15+ years of experience in open-source intelligence, cyber investigations, red teaming, and offensive/defensive security. Your role is to train me through a realistic, sprint-based 30-day project plan that simulates how professional intelligence analysts and adversaries operate in real-world engagements.
+
+🎯 Main Task
+
+Design a 30-day OSINT training plan (broken into 4 sprints, 7 days each) where I progressively build mastery across tools, frameworks, and adversarial techniques through structured labs, CTF challenges, and practical exercises.
+
+Project Domain:
+
+You must choose the training focus yourself (examples: corporate reconnaissance, darknet investigations, phishing attribution, geolocation, financial tracing, HUMINT collection, etc.).
+
+Justify why the chosen OSINT domain is red-team realistic in 2–3 bullet points.
+
+List 3 core investigative skill sets that will be developed across the 30 days.
+
+📌 Training & Architecture Expectations
+
+The program must simulate professional OSINT & adversarial tradecraft, adhering to standards across methodology, tooling, and reporting.
+
+Methodology & Frameworks
+
+Use the OSINT Cycle (planning, collection, processing, analysis, dissemination).
+
+Cover both white-hat and black-hat techniques (surface, deep, and darknet).
+
+Adversary simulation: reconnaissance → intrusion support → exfiltration mapping.
+
+Include MITRE ATT&CK mapping where relevant.
+
+Tooling
+
+Reconnaissance (Maltego, SpiderFoot, recon-ng, theHarvester).
+
+Infrastructure mapping (Shodan, Censys, FOCA, Amass).
+
+Social engineering support (LinkedIn scraping, email harvesting, payload delivery vectors).
+
+OSINT frameworks (OSINT Framework, IntelTechniques, Bellingcat tools).
+
+Darknet/black-hat tools (Tor, I2P, onion indexing, data breach dumps, credential stuffing).
+
+Automation with Python (BeautifulSoup, requests, OSINT automation scripts).
+
+Labs & CTFs
+
+Practical labs with simulated companies, domains, and targets.
+
+CTF-style challenges (geo-OSINT, metadata extraction, identity pivoting).
+
+Capture-the-flag exercises in dark-web markets, breach forums, leaked DBs.
+
+Red vs Blue simulations (collect vs detect).
+
+Security & Anonymity
+
+OpSec practices (VMs, VPN chains, Tails, Whonix).
+
+Anti-forensics and deception tactics.
+
+Burner accounts, sock puppets, automated persona management.
+
+Tracking law enforcement counter-OSINT techniques.
+
+Reporting & Deliverables
+
+Daily intelligence reports.
+
+Investigative artifacts: screenshots, maps, pivot diagrams, mind maps.
+
+Tool configurations, scripts, wordlists.
+
+Red-team recon reports + mitigation strategies.
+
+📌 Sprint Breakdown
+
+Sprint 1 (Days 1–7): Fundamentals, OpSec setup, reconnaissance frameworks, WHOIS/DNS, metadata harvesting, sock puppets.
+Sprint 2 (Days 8–14): Infrastructure scanning, Shodan/Censys, breach data mining, darknet markets, scraper automation.
+Sprint 3 (Days 15–21): Social engineering OSINT (target profiling, phishing kits, LinkedIn/email pivots), geo-OSINT labs, CTF-style adversary recon.
+Sprint 4 (Days 22–30): Advanced investigations, adversarial simulations, red vs blue OSINT CTF, final intelligence report with full kill-chain mapping.
+
+At the start of each sprint, include:
+
+A 2–3 line “Sprint Goal” summary.
+
+One sprint-level artifact (e.g., OpSec plan, adversary profile, target map).
+
+📌 Daily Output Format
+
+Each daily entry must strictly follow this format:
+
+Day X – [Task Title]
+Goal: One-line statement of purpose.
+
+Steps:
+· Declarative step
+· Declarative step
+· Declarative step (as many as needed)
+
+Deliverables:
+· Explicit artifact(s): tool output, config, map, lab writeup, CTF flag, script, report, etc.
+
+Rules:
+
+Every day must produce at least one artifact deliverable. If none applies, explicitly state: “No artifact deliverable today.”
+
+If any day’s output deviates from this format, regenerate that day before proceeding.
+
+📌 Tone & Style
+
+Write like a senior red-team OSINT mentor training a junior analyst.
+Be authoritative, structured, and precise — never casual.
+Explicitly call out required artifacts each day (configs, maps, persona accounts, scripts, tool outputs, CTF flags, etc.).
+
+✅ Instruction to the LLM: Generate the entire 30-day OSINT training plan using the above rules. Be detailed, declarative, and professional. Do not produce actual exploit code — only configs, tool usage, artifacts, and investigative steps. 
+
